@@ -1,0 +1,49 @@
+# ---- Vivado build output (regenerated on every build; never commit) ----
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.srcs/
+*.xpr
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.ltx
+*.pb
+*.rpt
+*.wdb
+*.wcfg
+vivado*.backup.jou
+vivado*.backup.log
+.Xil/
+
+# Generated IP products -- rebuilt from the .xci files in ip/
+*_sim_netlist.v
+*_sim_netlist.vhdl
+*_stub.v
+*_stub.vhdl
+*_ooc.xdc
+dont_touch.xdc
+*.mif
+*.veo
+*.vho
+
+# ---- Never commit credentials or archives ----
+kaggle.json
+*.key
+*.pem
+.env
+*.zip
+*.tar
+*.tar.gz
+
+# ---- OS / editor noise ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
