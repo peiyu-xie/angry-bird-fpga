@@ -36,9 +36,7 @@ The sync generator is written from scratch rather than using an IP core.
 | Front porch start | 625 | 516 |
 | Total | 640 | 525 |
 
-At a 25 MHz pixel clock this gives a **39.06 kHz line rate** and a **≈74.4 Hz frame
-rate**, with a **481 × 481** visible region. Note this is a custom mode, not standard
-640×480 @ 60 Hz (which would need `H_TOTAL = 800`).
+The generator is clocked by the 25 MHz pixel clock produced by `dcm_25M`.
 
 `dataValid` gates pixel output to the visible window, and `hDataCnt` / `vDataCnt` give
 in-window pixel coordinates that the sprite logic uses for ROM address generation.
