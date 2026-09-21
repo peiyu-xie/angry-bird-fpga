@@ -6,9 +6,6 @@ display timing are all synthesised RTL.
 
 Final project for *Digital System Design and Implementation*, National Central University.
 
-> **TODO before publishing:** add your teammate's name to Credits below, and fill in the
-> "What I worked on" section. Then delete this block.
-
 ---
 
 ## Hardware
@@ -87,14 +84,16 @@ deliberately not tracked — it is regenerated from the `.xci` definitions on ev
 4. Set `AngryBird` as the top module, then synthesise, implement and generate a bitstream.
 5. Connect a VGA monitor and a PS/2 keyboard, and program the device.
 
-## What I worked on
+## Authorship
 
-> **TODO:** this was a two-person project. State which modules and subsystems you
-> personally designed, so anyone reading knows what to ask you about.
+All RTL in this repository was written by me — the top-level game FSM and
+trajectory/collision logic in `AngryBird.v`, the VGA sync generator, the PS/2
+receiver, the button debouncer and the LED driver, along with the sprite-ROM
+address generation and compositing.
 
 ## Credits
 
-- Pei-yu Xie
-- *TODO: teammate's name*
+- **Pei-yu Xie** — RTL design and implementation
+- **Po-lin Chen** — project partner
 
 Course project, National Central University — *Digital System Design and Implementation*.
